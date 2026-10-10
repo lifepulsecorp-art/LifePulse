@@ -1,0 +1,266 @@
+[
+  {
+    "id": "audit_58bc2325-9",
+    "actorUid": "hospital_manipal_uid",
+    "actorRole": "hospital",
+    "action": "donation.completed",
+    "entityType": "match",
+    "entityId": "match_001_rahul",
+    "details": {
+      "requestId": "req_emergency_001"
+    },
+    "createdAt": "2026-10-08T15:59:01.718Z"
+  },
+  {
+    "id": "audit_ae0c8b2b-e",
+    "actorUid": "5G6ajWegMiepIzvIyreG7bx82SG2",
+    "actorRole": "admin",
+    "action": "donor.eligibility_updated",
+    "entityType": "donor",
+    "entityId": "donor_rahul_01",
+    "details": {
+      "eligibilityStatus": "temporary_deferral"
+    },
+    "createdAt": "2026-10-08T17:24:56.056Z"
+  },
+  {
+    "id": "audit_2585951e-a",
+    "actorUid": "5G6ajWegMiepIzvIyreG7bx82SG2",
+    "actorRole": "admin",
+    "action": "donor.eligibility_updated",
+    "entityType": "donor",
+    "entityId": "donor_rahul_01",
+    "details": {
+      "eligibilityStatus": "eligible"
+    },
+    "createdAt": "2026-10-08T17:24:57.733Z"
+  },
+  {
+    "id": "audit_bccb6c64-8",
+    "actorUid": "hospital_manipal_uid",
+    "actorRole": "hospital",
+    "action": "donation.completed",
+    "entityType": "match",
+    "entityId": "match_002_rahul",
+    "details": {
+      "requestId": "req_emergency_002"
+    },
+    "createdAt": "2026-10-10T11:50:47.756Z"
+  },
+  {
+    "id": "audit_93e00d02-3",
+    "actorUid": "5G6ajWegMiepIzvIyreG7bx82SG2",
+    "actorRole": "admin",
+    "action": "hospital.accreditation_updated",
+    "entityType": "hospital",
+    "entityId": "hosp_4355bc93",
+    "details": {
+      "status": "verified"
+    },
+    "createdAt": "2026-10-10T13:50:50.658Z"
+  },
+  {
+    "id": "audit_1a52be99-9",
+    "actorUid": "5G6ajWegMiepIzvIyreG7bx82SG2",
+    "actorRole": "admin",
+    "action": "hospital.accreditation_updated",
+    "entityType": "hospital",
+    "entityId": "hosp_4355bc93",
+    "details": {
+      "status": "rejected"
+    },
+    "createdAt": "2026-10-10T13:50:52.567Z"
+  },
+  {
+    "id": "audit_4203838b-5",
+    "actorUid": "5G6ajWegMiepIzvIyreG7bx82SG2",
+    "actorRole": "admin",
+    "action": "hospital.accreditation_updated",
+    "entityType": "hospital",
+    "entityId": "hosp_4355bc93",
+    "details": {
+      "status": "verified"
+    },
+    "createdAt": "2026-10-10T13:50:53.454Z"
+  },
+  {
+    "id": "audit_notif_9b266821",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:simulator",
+        "email:simulator"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T14:31:04.968Z"
+  },
+  {
+    "id": "audit_notif_b70ca010",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:simulator",
+        "email:brevo"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T14:31:36.665Z"
+  },
+  {
+    "id": "audit_notif_33ae67e8",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:simulator",
+        "email:brevo"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T14:36:05.514Z"
+  },
+  {
+    "id": "audit_notif_7c266817",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T15:03:44.192Z"
+  },
+  {
+    "id": "audit_notif_b6d097d0",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T15:24:47.640Z"
+  },
+  {
+    "id": "audit_notif_648c2ccb",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor_arjun_06",
+    "details": {
+      "requestId": "req_emergency_005",
+      "matchId": "match_3463d9b8",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543215",
+      "email": "arjun.kamath@gmail.com"
+    },
+    "createdAt": "2026-10-10T16:17:56.618Z"
+  },
+  {
+    "id": "audit_notif_8b6154dc",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor_mohammed_05",
+    "details": {
+      "requestId": "req_emergency_003",
+      "matchId": "match_636a82eb",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543214",
+      "email": "mohammed.farooq@gmail.com"
+    },
+    "createdAt": "2026-10-10T16:17:57.019Z"
+  },
+  {
+    "id": "audit_notif_f002dd20",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor_pooja_07",
+    "details": {
+      "requestId": "req_emergency_003",
+      "matchId": "match_709c0db3",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543216",
+      "email": "pooja.shetty@gmail.com"
+    },
+    "createdAt": "2026-10-10T16:17:57.034Z"
+  },
+  {
+    "id": "audit_notif_4a442d05",
+    "actorUid": "system_notification_dispatcher",
+    "actorRole": "system",
+    "action": "emergency_alert.dispatched_multichannel",
+    "entityType": "donor",
+    "entityId": "donor-test",
+    "details": {
+      "requestId": "req-test",
+      "matchId": "m-1",
+      "channelsDispatched": [
+        "push:browser_push",
+        "sms:brevo",
+        "email:brevo"
+      ],
+      "phone": "+919876543210",
+      "email": "lifepulsecorp@gmail.com"
+    },
+    "createdAt": "2026-10-10T16:22:10.621Z"
+  }
+]
